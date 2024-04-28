@@ -49,7 +49,7 @@ while action_encdec:
                     action_encdec = False
                     action_ny = False
                 else:
-                    print("You type wrong")
+                    print("Only y and n")
 
     elif choice.lower() == "enc":
         def encoder():
@@ -89,4 +89,4 @@ while action_encdec:
                     action_encdec = False
                     action_ny = False
                 else:
-                    print("You type wrong")
+                    print("Only y and n")
